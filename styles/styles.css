@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner styles */
+.banner-container{
+    max-width:100%;
+    height: 650px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.banner-content{
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    height: 100%;
+  
+}
+.banner-content-item-1{
+    margin: 50px auto;
+    width: 50%;
+    padding-top: 110px;
+}
+.banner-content-item-1 > h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.banner-content-item-1 > p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: gray;
+}
+.banner-content-item-1 > button{
+    padding: 18px 45px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(244, 97, 121);
+    color: white;
+    font-size: 16px;
+}
+.banner-content-item-2{
+    width: 50%;
+    height: 100%;
+    margin: 20px auto;
+}
+.banner-content-item-2 > img{
+    width: 65%;
+    height: 97%;
+}
+/* featured section styles */
+.featured-container{
+    max-width:80%;
+    height: 700px;
+    margin: 120px auto;
+}
+.featured-content{
+    text-align: center;
+}
+.featured-content > h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-content > p{
+    color: gray;
+    margin-top: 20px;
+}
+.featured-item{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+.featured-item-1{
+    width: 30%;
+    background-color:#F2DEE7;
+    height: 430px;
+    border-radius:50% 50% 0 0 ;
+    margin-left: 20px;
+}
+.featured-item-1 > img{
+    width: 68%;
+    margin-top: 86px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.featured-item-1 > a{
+    font-size: 20px;
+    color: black;
+    margin-left:30%;
+   font-weight: 700;
+}
+.featured-item-2{
+    width: 30%;
+    background-color:#D9EFF1;
+    height: 430px;
+    border-radius:50% 50% 0 0 ;
+    margin-left: 20px;
+}
+.featured-item-2 > a{
+    font-size: 20px;
+    color: black;
+    margin-left:30%;
+   font-weight: 700;
+}
+.featured-item-3{
+    width: 30%;
+    background-color:#def2e4;
+    height: 430px;
+    border-radius:50% 50% 0 0 ;
+    margin-left: 20px;
+}
+.featured-item-3 > a{
+    font-size: 20px;
+    color: black;
+    margin-left:30%;
+   font-weight: 700;
+}
+.featured-item-2 > img{
+    width: 90%;
+    margin-top: 86px;
+    margin-left: 40px;
+    margin-bottom: 37px;
+}
+.featured-item-3 > img{
+    width: 70%;
+    margin-top: 46px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+/* support styles */
+.support-container{
+    max-width:80%;
+    height: 250px;
+    margin: 0px auto;
+    background-color:rgba(128, 128, 128, 0.103);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6%;
+}
+.support-content-1 > img{
+    margin-left:35%;
+    margin-bottom: 20px;
+}
+.support-content-1 >p{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+}
+.support-content-2 > img{
+    margin-left:35%;
+    margin-bottom: 20px;
+}
+.support-content-2 >p{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+}
+.support-content-3 > img{
+    margin-left:35%;
+    margin-bottom: 20px;
+}
+.support-content-3 >p{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+}
+/* hot deal styles */
+.hot-deal-container{
+    max-width:100%;
+    height: 450px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 120px 0;
+    text-align: center;
+}
+.hot-deal-content{
+    max-width:60%;
+    height: 450px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;    
+}
+.hot-deal-content-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.hot-deal-content-1 > h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.hot-deal-content-1 > p{
+    color: gray;
+}
+.hot-deal-content-1 > button{
+    padding: 18px 45px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(244, 97, 121);
+    color: white;
+    font-size: 16px;
+}
+
+.hot-deal-content-2 > img{
+    width: 80%;
+    margin-top: 65px;
+}
+/* instragrem styles */
+.instragram-container{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+.instragram-title{
+    text-align: center;
+}
+.instragram-title > h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700px;
+}
+.instragram-title > p{
+    font-size: 16px;
+    color: gray;
+}
+.instragram-content{
+    display: flex;
+    width: 80%;
+}
+.instragram-content > img{
+    width:280px;
+    height: 50%;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+/* get offer styles */
+.get-offer-container{
+    background-image: url("../assets/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1180px;
+    height: 390px;
+    margin: 120px auto;
+    text-align: center;
+}
+.get-offer-container > div > h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+}
+.get-offer-container > div > p{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.get-offer-container > div > input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius:5px;
+    border: 0;
+    padding-left: 20px;
+}
+.get-offer-container > div > button{
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(244, 97, 121);
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+/* footer styles */
+footer{
+    max-width: 100%;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    padding-top: 80px;
+}
+footer > div > h1{
+    font-size: 40px;
+    color:rgb(244, 97, 121)
+}
+footer > div > p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+footer small {
+    color: gray;
+
+}
+/* Responsive for small device */
+@media screen and (max-width:576px) {
+    /* banner section */
+    .banner-container {
+        height: auto;
+    }
+    .banner-content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .banner-content-item-1 {
+        margin:0px;
+        width:calc(100% - 40px);
+        padding:20px;
+        padding-top: 40px;
+    }
+    .banner-content-item-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content-item-1 > h1{
+        font-size: 50px;
+    }
+    /* features */
+    .featured-container {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .featured-item {
+        flex-direction: column;
+        width: 100%;
+        margin-top:0px;
+    }
+    .featured-item-1,.featured-item-2, .featured-item-3{
+        width: calc(100% - 20px);
+        margin: 10px;
+        margin-top: 80px;
+    }
+    .featured-item-1 > img{
+        width: 50%;
+        height: 80%;
+        margin-left: 90px;
+    }
+    .featured-item-2 > img{
+        width: 70%;
+        height: 80%;
+        margin-left: 70px;
+    }
+    .featured-item-3 > img{
+        width: 60%;
+        height: 89%;
+        margin-left: 90px;
+    }
+    /* support section */
+    .support-container {
+        height: auto;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .support-content-1 > img{
+        margin-left: 2%;
+    }
+    .support-content-2 > img {
+        margin-top: 40px;
+    }
+    .support-content-3 > img {
+        margin-top: 40px;
+        margin-left:2%;
+    }
+    
+.support-content-3, .support-content-1, .support-content-2 >p {
+    text-align: center;
+}
+/* hot deals */
+.hot-deal-container {
+    height:auto;
+}
+.hot-deal-content {
+    flex-direction: column;
+    height: auto;
+}
+.hot-deal-content-1 {
+    padding-top: 20px;
+}
+/* instragram */
+.instragram-container {
+    height: auto;
+}
+.instragram-content {
+    flex-direction: column;
+}
+.get-offer-container > div > input {
+    width: 370px;
+}
+/* footer */
+footer > div > p {
+    padding: 20px;
+}
+}
