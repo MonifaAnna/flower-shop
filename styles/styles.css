@@ -386,11 +386,15 @@ footer small {
     padding-top: 20px;
 }
 /* instragram */
-.instragram-container {
+.instragram-container{
     height: auto;
+    width: 100%;
 }
-.instragram-content {
+.instragram-content{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .get-offer-container > div > input {
     width: 320px;
