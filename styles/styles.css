@@ -399,6 +399,16 @@ footer small {
 .get-offer-container > div > input {
     width: 320px;
 }
+.get-offer-container{
+    background: rgba(0, 0, 0, 0.352);
+    background-blend-mode: overlay;
+    background-image:url("../assets/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-offer-container > div > p{
+    color: black;
+}
 /* footer */
 footer > div > p {
     padding: 20px;
