@@ -305,9 +305,13 @@ footer small {
     }
     .banner-content-item-1 {
         margin:0px;
-        width:calc(100% - 40px);
-        padding:20px;
+        width:calc(100% - 55px);
+        padding-left: 50px;
         padding-top: 40px;
+        align-items:center;
+    }
+    .banner-content-item-1 > button {
+        margin-left: 55px;
     }
     .banner-content-item-2{
         width: 100%;
@@ -348,7 +352,7 @@ footer small {
     .featured-item-3 > img{
         width: 60%;
         height: 89%;
-        margin-left: 90px;
+        margin-left: 70px;
     }
     /* support section */
     .support-container {
@@ -394,5 +398,80 @@ footer small {
 /* footer */
 footer > div > p {
     padding: 20px;
+}
+}
+/* Responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* banner */
+    .banner-container{
+        height: auto;
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+    .banner-content-item-1, .banner-content-item-2{
+        width: 100%;
+    }
+/* featured */
+.featured-container {
+    max-width: 100%;
+    height: auto;
+}
+.featured-item {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.featured-item-1,.featured-item-2, .featured-item-3{
+    width: 60%;
+    
+}
+.featured-item-2, .featured-item-3{
+    margin-top: 120px;
+}
+.featured-item-1 > img{
+    width: 50%;
+    margin-left: 90px;
+}
+.featured-item-2 > img{
+    width: 65%;
+    margin-left: 90px;
+}
+.featured-item-3 > img{
+    width: 54%;
+    margin-left: 90px;
+}
+/* support */
+.support-container{
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.support-content-2,.support-content-3, .support-content-1{
+    margin-bottom: 50px;
+}
+/* hot deals */
+.hot-deal-container{
+    height: auto;
+}
+.hot-deal-content{
+    flex-direction: column;
+    height: auto;
+}
+.hot-deal-content-1{
+    padding-top: 40px;
+}
+/* instragram */
+.instragram-container{
+    height: auto;
+    width: 100%;
+}
+.instragram-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 }
